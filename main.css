@@ -1,0 +1,96 @@
+/* Universal */
+* {
+    background-color: #F777C4;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.centered-container {
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+
+/* Navbar styles */
+
+/* .main-menu {
+    position: fixed;
+} */
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul li {
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    font-size: 1.2em;
+    border-bottom: 1px solid #000;
+    transition: box-shadow 0.25s;
+}
+
+.main-menu ul li:hover {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2) inset, 0px 6px 20px 0px rgba(0, 0, 0, 0.19) inset;
+    cursor: pointer;
+}
+
+/* Image Area and image text styles */
+
+.image-area {
+    background-image: url("img/header.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    padding: 200px 0px 200px 0px;
+}
+
+.image-text {
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 10px 10px 5px 10px rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 16px;
+}
+
+/* Intro text styles */
+.intro-text {
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 1020px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Single servicies styles */
+
+.single-service ´{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.single-service p {
+    padding: 0px 16px;
+}
+
+.single-service img {
+   width: 200px;
+   height: 300px;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+    .main-menu ul {
+        text-align: right;
+    }
+
+    .main-menu ul li {
+        display: inline-block;
+        border-bottom: 0px;
+        text-align: left;
+    }
+}
